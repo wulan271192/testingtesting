@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="REQRES" time="9.671" tests="4" failures="0" errors="0">
+   <testsuite name="REQRES" tests="4" failures="0" errors="0" time="9.671" skipped="0" timestamp="2022-12-16 13:47:03" hostname="lenna - DESKTOP-HJ00194" id="Test Suites/REQRES">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lenna\\git\\testingtesting\\Reports\\20221216_134659\\REQRES\\20221216_134700"/>
+         <property name="logFiles" value="C:\\Users\\lenna\\git\\testingtesting\\Reports\\20221216_134659\\REQRES\\20221216_134700\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lenna - DESKTOP-HJ00194"/>
+         <property name="hostAddress" value="192.168.147.8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+      </properties>
+      <testcase name="Test Cases/TS_GET LIST USER" time="3.705" classname="Test Cases/TS_GET LIST USER" status="PASSED">
+         <system-out><![CDATA[2022-12-16 13:47:03 - [TEST_CASE][PASSED] - Test Cases/TS_GET LIST USER: Test Cases/TS_GET LIST USER
+
+2022-12-16 13:47:03 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GET LIST USER")): Send request successfully
+
+2022-12-16 13:47:06 - [MESSAGE][INFO] - HAR: C:\Users\lenna\git\testingtesting\Reports\20221216_134659\REQRES\20221216_134700\requests\main\0.har
+
+2022-12-16 13:47:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-16 13:47:06 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET LIST USER")): Send request and verify the response successfully
+
+2022-12-16 13:47:06 - [MESSAGE][INFO] - HAR: C:\Users\lenna\git\testingtesting\Reports\20221216_134659\REQRES\20221216_134700\requests\main\1.har
+
+2022-12-16 13:47:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-12-16 13:47:07 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-12-16 13:47:07 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-12-16 13:47:07 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-12-16 13:47:07 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-12-16 13:47:07 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-12-16 13:47:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-16 13:47:07 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TS_GET SINGLE USER" time="1.618" classname="Test Cases/TS_GET SINGLE USER" status="PASSED">
+         <system-out><![CDATA[2022-12-16 13:47:07 - [TEST_CASE][PASSED] - Test Cases/TS_GET SINGLE USER: Test Cases/TS_GET SINGLE USER
+
+2022-12-16 13:47:07 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GET SINGLE USER")): Send request successfully
+
+2022-12-16 13:47:08 - [MESSAGE][INFO] - HAR: C:\Users\lenna\git\testingtesting\Reports\20221216_134659\REQRES\20221216_134700\requests\main\2.har
+
+2022-12-16 13:47:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-16 13:47:08 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET SINGLE USER")): Send request and verify the response successfully
+
+2022-12-16 13:47:08 - [MESSAGE][INFO] - HAR: C:\Users\lenna\git\testingtesting\Reports\20221216_134659\REQRES\20221216_134700\requests\main\3.har
+
+2022-12-16 13:47:08 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-12-16 13:47:08 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-12-16 13:47:08 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-12-16 13:47:08 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-12-16 13:47:08 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-12-16 13:47:08 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-12-16 13:47:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-16 13:47:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TS_PUT UPDATE" time="2.069" classname="Test Cases/TS_PUT UPDATE" status="PASSED">
+         <system-out><![CDATA[2022-12-16 13:47:08 - [TEST_CASE][PASSED] - Test Cases/TS_PUT UPDATE: Test Cases/TS_PUT UPDATE
+
+2022-12-16 13:47:08 - [TEST_STEP][PASSED] - sendRequest(findTestObject("PUT UPDATE")): Send request successfully
+
+2022-12-16 13:47:09 - [MESSAGE][INFO] - HAR: C:\Users\lenna\git\testingtesting\Reports\20221216_134659\REQRES\20221216_134700\requests\main\4.har
+
+2022-12-16 13:47:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-16 13:47:09 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("PUT UPDATE")): Send request and verify the response successfully
+
+2022-12-16 13:47:10 - [MESSAGE][INFO] - HAR: C:\Users\lenna\git\testingtesting\Reports\20221216_134659\REQRES\20221216_134700\requests\main\5.har
+
+2022-12-16 13:47:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-12-16 13:47:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-12-16 13:47:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-12-16 13:47:10 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-12-16 13:47:10 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-12-16 13:47:10 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-12-16 13:47:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-16 13:47:10 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TS_register sucessfully" time="2.011" classname="Test Cases/TS_register sucessfully" status="PASSED">
+         <system-out><![CDATA[2022-12-16 13:47:10 - [TEST_CASE][PASSED] - Test Cases/TS_register sucessfully: Test Cases/TS_register sucessfully
+
+2022-12-16 13:47:11 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST register successful")): Send request successfully
+
+2022-12-16 13:47:11 - [MESSAGE][INFO] - HAR: C:\Users\lenna\git\testingtesting\Reports\20221216_134659\REQRES\20221216_134700\requests\main\6.har
+
+2022-12-16 13:47:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-16 13:47:11 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("POST register successful")): Send request and verify the response successfully
+
+2022-12-16 13:47:12 - [MESSAGE][INFO] - HAR: C:\Users\lenna\git\testingtesting\Reports\20221216_134659\REQRES\20221216_134700\requests\main\7.har
+
+2022-12-16 13:47:12 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-12-16 13:47:12 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-12-16 13:47:12 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-12-16 13:47:12 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-12-16 13:47:12 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-12-16 13:47:12 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-12-16 13:47:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-16 13:47:12 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-16 13:47:03 - [TEST_SUITE][PASSED] - REQRES: Test Cases/TS_register sucessfully]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

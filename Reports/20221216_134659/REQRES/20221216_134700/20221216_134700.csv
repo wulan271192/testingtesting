@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+REQRES,,,,2022-12-16 13:47:03,2022-12-16 13:47:12,"9,671s",PASSED
+,,,,,,,
+Test Cases/TS_GET LIST USER,,,,2022-12-16 13:47:03,2022-12-16 13:47:07,"3,705s",PASSED
+"sendRequest(findTestObject(""GET LIST USER""))",,mengrimkan req,,2022-12-16 13:47:03,2022-12-16 13:47:06,"2,434s",PASSED
+"response = sendRequestAndVerify(findTestObject(""GET LIST USER""))",,mengirimkan req dan verifikasi status response,,2022-12-16 13:47:06,2022-12-16 13:47:07,"0,913s",PASSED
+"verifyResponseStatusCode(response, 200)",,verifikasi status code response,,2022-12-16 13:47:07,2022-12-16 13:47:07,"0,013s",PASSED
+,,,,,,,
+Test Cases/TS_GET SINGLE USER,,,,2022-12-16 13:47:07,2022-12-16 13:47:08,"1,618s",PASSED
+"sendRequest(findTestObject(""GET SINGLE USER""))",,mengirimkan request,,2022-12-16 13:47:07,2022-12-16 13:47:08,"0,590s",PASSED
+"response = sendRequestAndVerify(findTestObject(""GET SINGLE USER""))",,mengirimkan req dan verifikasi response,,2022-12-16 13:47:08,2022-12-16 13:47:08,"0,714s",PASSED
+"verifyResponseStatusCode(response, 200)",,verifikasi status code,,2022-12-16 13:47:08,2022-12-16 13:47:08,"0,000s",PASSED
+,,,,,,,
+Test Cases/TS_PUT UPDATE,,,,2022-12-16 13:47:08,2022-12-16 13:47:10,"2,069s",PASSED
+"sendRequest(findTestObject(""PUT UPDATE""))",,MENGIRIMKAN REQ,,2022-12-16 13:47:08,2022-12-16 13:47:09,"0,720s",PASSED
+"response = sendRequestAndVerify(findTestObject(""PUT UPDATE""))",,mengirimkan req dan verify response,,2022-12-16 13:47:09,2022-12-16 13:47:10,"1,109s",PASSED
+"verifyResponseStatusCode(response, 200)",,verify status code,,2022-12-16 13:47:10,2022-12-16 13:47:10,"0,000s",PASSED
+,,,,,,,
+Test Cases/TS_register sucessfully,,,,2022-12-16 13:47:10,2022-12-16 13:47:12,"2,011s",PASSED
+"sendRequest(findTestObject(""POST register successful""))",,"mengirimkan request
+",,2022-12-16 13:47:11,2022-12-16 13:47:11,"0,920s",PASSED
+"response = sendRequestAndVerify(findTestObject(""POST register successful""))",,mengirimkan req dan memverifikasi response,,2022-12-16 13:47:11,2022-12-16 13:47:12,"0,841s",PASSED
+"verifyResponseStatusCode(response, 200)",,memverifikasi response status code,,2022-12-16 13:47:12,2022-12-16 13:47:12,"0,000s",PASSED
